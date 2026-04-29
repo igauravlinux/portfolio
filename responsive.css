@@ -1,5 +1,21 @@
-@media screen and (max-width:500px){
+@media screen and (max-width: 700px){
+    .child-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
     .child-2 .left{
-        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+      .child-2 .right{
+        width: 100%;
+        text-align: center;
+    }
+    .child-2 .right img{
+        width: 40%;
+        height: auto;
     }
 }
