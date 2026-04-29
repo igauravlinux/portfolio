@@ -106,3 +106,38 @@ html, body{
     color: #aaa6a9;
     font-weight: 500;
 }
+.child-2 .left .cv{
+    width: 25%;
+    padding: 15px 0;
+    border: 0;
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #fff;
+    background-color: #666465;
+    outline: 2px solid rgba(245, 245, 245, 0.622);
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.child-2 .left .social-icons a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #666465;
+    outline: 2px solid rgba(245, 245, 245, 0.622);
+    border-radius: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.child-2 .left .social-icons a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.3rem;
+}
