@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    font-family: "Poppins";
+}
+.grid-container{
+    max-width: 1800px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px calc(100vh - 100px) 1fr 1fr 1fr;
+    padding: 10px 50px;
+    gap: 10px;
+
+}
+.child{
+    /* border: 2px solid skyblue; */
+}
+
+/* Header */
+.child-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child-1 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #666465;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    outline: 2px solid rgba(245, 245, 245, 0.622);
+}
+
+.child-1 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-1 nav ul{
+    background-color: rgba(255, 255, 255, 0.105);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px 25px;
+    outline: 2px solid rgba(245, 245, 245, 0.622);
+
+}
+.child-1 nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.child-1 .talk-btn{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #666465;
+    outline: 2px solid rgba(245, 245, 245, 0.622);
+    color: white;
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+/* main section */
+.child-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 100%;
+}
+.child-2 .left{
+    width: 50%;
+    /* background-color: #18a518; */
+}
+.child-2 .left .greeting{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.child-2 .left h1{
+    font-size: 3rem;
+    line-height: 1.1;
+    color: #a39da0;
+    font-weight: 600;
+}
+.child-2 .left .summary{
+    margin-top: 15px;
+    width: 73%;
+    line-height: 1.8;
+    color: #aaa6a9;
+    font-weight: 500;
+}
