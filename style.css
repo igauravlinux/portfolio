@@ -21,7 +21,7 @@ html, body{
 
 }
 .child{
-    border: 2px solid skyblue;
+    /* border: 2px solid skyblue; */
 }
 
 /* Header */
@@ -159,6 +159,16 @@ html, body{
 .child-3 .heading{
     text-align: center;
 }
+
+.child-3 .heading .main-heading{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+}
+.child-3 .heading .sub-heading{
+    margin-bottom: 35px;
+}
+
 .child-3 .cards{
     display: flex;
     justify-content: space-between;
@@ -167,6 +177,40 @@ html, body{
 }
 .child-3 .cards .card{
     width: 20rem;
-    height: 20rem;
+    height: 25rem;
     border: 2px solid white;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 0;
+    outline: 1px solid rgba(192, 192, 192, 0.442);
+}
+.child-3 .cards .card h1{
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.child-3 .cards .card p{
+    font-size: 1rem;
+    line-height: 2;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.child-3 .cards .card .btn-link{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(231, 216, 216, 0.166);
+}
+.child-3 .cards .card .btn-link a{
+    width: 100%;
+    background-color: #ffffff0c;
+    backdrop-filter: blur(10px);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: .9rem;
 }
