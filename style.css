@@ -15,13 +15,13 @@ html, body{
     margin: 0 auto;
     min-height: 100vh;
     display: grid;
-    grid-template-rows: 100px auto 1fr 1fr 1fr;
+    grid-template-rows: 100px auto auto 1fr 1fr;
     padding: 10px 50px;
     gap: 10px;
 
 }
 .child{
-    /* border: 2px solid skyblue; */
+    border: 2px solid skyblue;
 }
 
 /* Header */
@@ -87,6 +87,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
 }
 .child-2 .left .greeting{
@@ -118,6 +119,7 @@ html, body{
     border-radius: 5px;
     margin-top: 15px;
     cursor: pointer;
+    white-space: nowrap;
 
 }
 .child-2 .left .social-icons a{
@@ -140,4 +142,31 @@ html, body{
     align-items: center;
     height: 100%;
     font-size: 1.3rem;
+}
+
+.child-2 .right img{
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(4, 96, 216, 0.5));
+}
+
+/* child-3 */
+.child-3{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px 0;
+
+}
+.child-3 .heading{
+    text-align: center;
+}
+.child-3 .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.child-3 .cards .card{
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid white;
 }
