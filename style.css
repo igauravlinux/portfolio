@@ -18,6 +18,7 @@ html, body{
     grid-template-rows: 100px auto auto auto 1fr;
     padding: 10px 50px;
     gap: 10px;
+    z-index: 1;
 
 }
 .child{
@@ -29,6 +30,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 .child-1 .logo{
     display: flex;
@@ -89,6 +91,10 @@ html, body{
     padding-top: 40px;
     padding-bottom: 40px;
     width: 100%;
+    z-index: 1;
+}
+.child-2 .left{
+    z-index: 1;
 }
 .child-2 .left .greeting{
     font-weight: 500;
@@ -148,12 +154,21 @@ html, body{
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(4, 96, 216, 0.5));
 }
 
+.child-2 .center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: -1; */
+}
+
 /* child-3 */
 .child-3{
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 50px 0;
+    z-index: 1;
 
 }
 .child-3 .heading{
@@ -226,6 +241,7 @@ html, body{
     padding: 80px 0;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 .child-4 .heading-sec{
     text-align: center;
