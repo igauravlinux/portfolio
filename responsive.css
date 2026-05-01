@@ -1,4 +1,5 @@
 @media screen and (max-width: 700px){
+    
     .grid-container{
         padding: 10px;
     }
@@ -27,5 +28,9 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+    }
+    .child-4 .content .sm-sec{
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
