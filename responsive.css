@@ -33,4 +33,10 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    /* skills */
+    .child-5 .bottom-sec{
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
 }
