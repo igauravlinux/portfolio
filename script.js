@@ -1,10 +1,6 @@
-function showSidebar(){
-    const sidebar = document.querySelector('ul');
+const menuIcon = document.querySelector(".child-1 i");
+const navLinks = document.querySelector(".child-1 nav ul");
 
-    sidebar.style.display = 'flex'
-}
-function hideSidebar(){
-    const sidebar = document.querySelector('ul');
-
-    sidebar.style.display = 'none'
-}
+menuIcon.addEventListener("click", () =>{
+    navLinks.classList.toggle("active");
+})

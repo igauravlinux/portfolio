@@ -72,6 +72,16 @@ html, body{
     text-decoration: none;
     font-size: 0.9rem;
 }
+
+/* menu icon */
+.child-1 i{
+    display: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+
 .child-1 .talk-btn{
     padding: 8px 10px;
     border-radius: 5px;
