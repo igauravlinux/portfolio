@@ -63,7 +63,7 @@
     z-index: 999;
     border: 0;
 
-    transform: translateY(-150%);
+    transform: translateY(-170%);
     transition: transform 0.3s ease;
   }
 
